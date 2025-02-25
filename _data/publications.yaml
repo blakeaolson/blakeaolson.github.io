@@ -9,7 +9,7 @@ papers:
   - title: "Inference-Time Computations for LLM Reasoning and Planning: A Benchmark and Insights"
     authors: "Shubham Parashar, <b>Blake Olson</b>, Sambhav Khurana, Eric Li, Hongyi Ling, James Caverlee, Shuiwang Ji"
     venue: "arXiv preprint, 2025"
-    paper_pdf: "/assets/publications/376_Position_Inference_Time_Co.pdf"
+    paper_pdf: "/assets/publications/2502.12521v1.pdf"
     selected: y
 
   - title: "Fragment and Geometry Aware Tokenization of Molecules for Structure-Based Drug Design Using Language Models"

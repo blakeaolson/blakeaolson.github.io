@@ -3,17 +3,18 @@ experiences:
 - place: "Cornell University"
   time: "2026"
   title: "M.Eng. Computer Science"
-  subtitle: "Computer Science"
   category: "school"
 
 - place: "Google"
   time: "2025 - 2025"
   title: "Software Engineering Intern"
+  subtitle: "AI/ML for Search"
   category: "work"
 
 - place: "Apple"
   time: "2025 - 2025"
   title: "Software Engineering Intern"
+  subtitle: "Files & Finder"
   category: "work"
 
 - place: "Esri"

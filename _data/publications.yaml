@@ -3,7 +3,7 @@ papers:
   - title: "Complex LLM Planning via Automated Heuristics Discovery"
     authors: "Hongyi Ling, Shubham Parashar, Sambhav Khurana, <b> Blake Olson</b>, Anwesha Basu, Gaurangi Sinha, Zhengzhong Tu, James Caverlee, Shuiwang Ji"
     venue: "arXiv preprint, 2025"
-    paper_pdf: "/assets/publications/2023_embedding_societal_values/paper.pdf"
+    paper_pdf: "/assets/publications/2502.19295v1.pdf"
     selected: y
 
   - title: "Inference-Time Computations for LLM Reasoning and Planning: A Benchmark and Insights"

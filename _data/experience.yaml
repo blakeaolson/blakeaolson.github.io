@@ -1,5 +1,10 @@
 experiences:
 
+- place: "University of Texas at Austin"
+  time: "2026-2027"
+  title: "M.S Computer Science"
+  category: "school"
+
 - place: "Google"
   time: "Fall 2025"
   title: "Software Engineering Intern"

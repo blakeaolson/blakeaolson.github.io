@@ -1,19 +1,19 @@
 papers:
 
   - title: "Complex LLM Planning via Automated Heuristics Discovery"
-    authors: "Hongyi Ling, Shubham Parashar, Sambhav Khurana, <b> Blake Olson</b>, Anwesha Basu, Gaurangi Sinha, Zhengzhong Tu, James Caverlee, Shuiwang Ji"
+    authors: "Hongyi Ling*, Shubham Parashar*, Sambhav Khurana*, <b> Blake Olson</b>, Anwesha Basu, Gaurangi Sinha, Zhengzhong Tu, James Caverlee, Shuiwang Ji"
     venue: "arXiv preprint, 2025"
     paper_pdf: "/assets/publications/2502.19295v1.pdf"
     selected: y
 
   - title: "Inference-Time Computations for LLM Reasoning and Planning: A Benchmark and Insights"
-    authors: "Shubham Parashar, <b>Blake Olson</b>, Sambhav Khurana, Eric Li, Hongyi Ling, James Caverlee, Shuiwang Ji"
+    authors: "Shubham Parashar*, <b>Blake Olson*</b>, Sambhav Khurana*, Eric Li*, Hongyi Ling, James Caverlee, Shuiwang Ji"
     venue: "arXiv preprint, 2025"
     paper_pdf: "/assets/publications/2502.12521v1.pdf"
     selected: y
 
   - title: "Fragment and Geometry Aware Tokenization of Molecules for Structure-Based Drug Design Using Language Models"
-    authors: "Cong Fu, Xiner Li, <b>Blake Olson</b>, Heng Ji, Shuiwang Ji"
+    authors: "Cong Fu*, Xiner Li*, <b>Blake Olson</b>, Heng Ji, Shuiwang Ji"
     venue: "International Conference on Learning Representations <b>(ICLR)</b>, 2025"
     paper_pdf: "/assets/publications/5196_Fragment_and_Geometry_Awa.pdf"
     selected: y

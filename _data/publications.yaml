@@ -11,9 +11,11 @@ papers:
     venue: "arXiv preprint, 2025"
     paper_pdf: "/assets/publications/2502.12521v1.pdf"
     selected: y
+    code: https://github.com/divelab/Sys2Bench
 
   - title: "Fragment and Geometry Aware Tokenization of Molecules for Structure-Based Drug Design Using Language Models"
     authors: "Cong Fu*, Xiner Li*, <b>Blake Olson</b>, Heng Ji, Shuiwang Ji"
     venue: "International Conference on Learning Representations <b>(ICLR)</b>, 2025"
     paper_pdf: "/assets/publications/5196_Fragment_and_Geometry_Awa.pdf"
     selected: y
+    code: https://github.com/divelab/AIRS/tree/main/OpenMI/Frag2Seq

@@ -13,12 +13,12 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p>I am an incoming master's student at The University of Texas at Austin, focusing on 
+  <p>I am a master's student at The University of Texas at Austin, focusing on 
     the planning and reasoning abilities of large language models. Specifically, I am interested in reinforcement learning and post-training to improve reasoning ability.
   </p>
   <p>
-    My most recent work measures the planning and reasoning abilities of language models over several different benchmarks. We introduce 
-    <a href="https://github.com/divelab/Sys2Bench"> Sys2Bench</a>, a comprehensive benchmark that evaluates existing inference-time techniques on eleven diverse tasks across five categories.
+    My most recent work investigates the impact of curriculum learning on reasoning. We introduce 
+    <a href="https://arxiv.org/abs/2506.06632"> E2H Reasoner</a> (Easy2Hard), a method that improves post-training via cosine or gaussian scheduling. We compare supervised fine-tuning to reinforcement learning and measure their impact on trivial, easy, medium, and hard tasks.
   </p>
 
 </div>
@@ -27,6 +27,40 @@ title: Home
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
+  <h5> 2026 </h5>
+    <div">
+    {% for paper in site.data.publications.papers26 %}
+      <div class="paper">
+        <p class="title"><b>{{ paper.title }}</b></p>
+        <p>{{ paper.authors }}</p>
+        <p><i>{{ paper.venue }}</i></p>
+          <div class="paper-buttons">
+          {% if paper.paper_pdf %}
+            <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+          {% endif %}
+
+          {% if paper.slides %}
+            <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+          {% endif %}
+
+          {% if paper.poster %}
+            <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+          {% endif %}
+
+          {% if paper.video %}
+            <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+          {% endif %}
+
+          {% if paper.code %}
+            <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+          {% endif %}
+
+          {% if paper.data %}
+            <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
   <h5> 2025 </h5>
   <div id="papers-all">
     {% for paper in site.data.publications.papers %}
@@ -58,7 +92,6 @@ title: Home
           {% if paper.data %}
             <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
           {% endif %}
-
         </div>
       </div>
     {% endfor %}

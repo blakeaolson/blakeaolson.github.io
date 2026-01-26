@@ -1,10 +1,4 @@
 papers:
-  - title: "Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning"
-    authors: "Shubham Parashar*, Shurui Gui*, Xiner Li*, Hongyi Ling, Sushil Vemuri, <b>Blake Olson</b>, Eric Li, Yu Zhang, James Caverlee, Dileep Kalathil, Shuiwang Ji"
-    venue: "arXiv preprint, 2025"
-    paper_pdf: https://arxiv.org/abs/2506.06632
-    selected: y
-
   - title: "Complex LLM Planning via Automated Heuristics Discovery"
     authors: "Hongyi Ling*, Shubham Parashar*, Sambhav Khurana*, <b> Blake Olson</b>, Anwesha Basu, Gaurangi Sinha, Zhengzhong Tu, James Caverlee, Shuiwang Ji"
     venue: "arXiv preprint, 2025"
@@ -24,3 +18,10 @@ papers:
     paper_pdf: https://openreview.net/forum?id=mMhZS7qt0U
     selected: y
     code: https://github.com/divelab/AIRS/tree/main/OpenMI/Frag2Seq
+
+papers26:
+  - title: "Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning"
+    authors: "Shubham Parashar*, Shurui Gui*, Xiner Li*, Hongyi Ling, Sushil Vemuri, <b>Blake Olson</b>, Eric Li, Yu Zhang, James Caverlee, Dileep Kalathil, Shuiwang Ji"
+    venue: "International Conference on Learning Representations <b>(ICLR)</b>, 2026"
+    paper_pdf: https://arxiv.org/abs/2506.06632
+    selected: y

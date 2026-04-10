@@ -77,6 +77,103 @@ h4 {
     margin-top: 5rem; }
 }
 
+/*  ================ Blog styling  ================ */
+.blog-header {
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-post {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+}
+
+.blog-post h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.blog-post h5 a:hover {
+  color: #33C3F0 !important;
+}
+
+.blog-post:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.post-meta a:hover {
+  text-decoration: underline;
+}
+
+.post-excerpt {
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.post-excerpt a:hover {
+  text-decoration: underline;
+}
+
+.lead {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 40px;
+}
+
+/* Post page styling */
+.post-title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.post-content h2, .post-content h3, .post-content h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #33C3F0;
+  padding-left: 20px;
+  margin: 2rem 0;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.post-content code {
+  background: #f8f8f8;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9em;
+}
+
+.post-content pre {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.post-footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+  text-align: center;
+}
+
 /* Larger than tablet */
 @media (min-width: 750px) {
   /* Navbar */
@@ -122,8 +219,31 @@ h4 {
   /* Re-overiding the width 100% declaration to match size of % based container */
   .has-docked-nav .navbar > .container {
     width: 80%; }
-
-  /* Popover */
+}
+  .navbar-item {
+    position: relative;
+    float: left;
+    margin-bottom: 0; }
+  .navbar-link {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    margin-right: 35px;
+    text-decoration: none;
+    line-height: 6.5rem;
+    color: #222; }
+  .navbar-link.active {
+    color: #33C3F0; }
+  .has-docked-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .has-docked-nav .navbar-spacer {
+    display: block; }
+  /* Re-overiding the width 100% declaration to match size of % based container */
+  .has-docked-nav .navbar > .container {
+    width: 80%; }
   .popover.open {
     display: block;
   }

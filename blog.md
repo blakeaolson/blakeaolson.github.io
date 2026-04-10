@@ -6,7 +6,7 @@ permalink: /blog/
 
 <div class="docs-section">
   <div class="blog-header">
-    <p class="lead">My goal is to share implementations of the work I have been reading. I hope to break down these papers into simple and digestible content.</p>
+    <p class="lead">My goal is to read, implement, and share ideas about current popular research papers. I hope to break down these papers and provide code implementations.</p>
     <h5 style="margin-top: 1.5rem;"><b>Recent Posts</b></h5>
   </div>
 
@@ -23,8 +23,7 @@ permalink: /blog/
           <span>
             |
             {% for tag in post.tags %}
-              <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" style="color: #666; text-decoration: none; font-size: 1rem;">{{ tag }}</a>
-              {% unless forloop.last %}, {% endunless %}
+              <a style="color: #666; text-decoration: none; font-size: 1.1rem;">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
             {% endfor %}
           </span>
         {% endif %}

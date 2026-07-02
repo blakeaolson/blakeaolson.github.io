@@ -8,13 +8,16 @@ layout: default
         <div class="post-meta" style="color: rgba(0, 0, 0, 0.6); font-size: 1.1rem; border-bottom: 1px solid #eee; padding-bottom: 20px;">
           <span style="font-weight: 600; font-size: 1.5rem;">{{ page.date | date: "%B %d, %Y" }}</span>
           {% if page.tags %}
-            <span>
-              |
-              {% for tag in page.tags %}
-                <a style="color: #666; text-decoration: none; font-size: 1.1rem;">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
-              {% endfor %}
-            </span>
+          <span>
+            |
+            {% for tag in page.tags %}
+            <a style="color: #666; text-decoration: none; font-size: 1.1rem;">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          </span>
           {% endif %}
+          <div style="margin-top: 0.35rem;">
+            <a href="{{ page.paper }}" target="_blank" rel="noopener" style="color: #33C3F0; text-decoration: none; font-size: 1.1rem;">Read the paper</a>
+          </div>
         </div>
       </header>
 

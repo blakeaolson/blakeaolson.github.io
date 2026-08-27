@@ -1,10 +1,16 @@
-papers:
+preprints:
+  - title: "CanvasAnneal: Curriculum Reinforcement Learning for Diffusion Language Models"
+    authors: "<b>Blake Olson</b>, Yuhang Song, Emmett McQuinn, Yuan Shangguan"
+    venue: "arXiv preprint, 2026"
+    selected: y
+
   - title: "Complex LLM Planning via Automated Heuristics Discovery"
     authors: "Hongyi Ling*, Shubham Parashar*, Sambhav Khurana*, <b> Blake Olson</b>, Anwesha Basu, Gaurangi Sinha, Zhengzhong Tu, James Caverlee, Shuiwang Ji"
     venue: "arXiv preprint, 2025"
     paper_pdf: https://arxiv.org/abs/2502.19295v1
     selected: y
 
+papers:
   - title: "Fragment and Geometry Aware Tokenization of Molecules for Structure-Based Drug Design Using Language Models"
     authors: "Cong Fu*, Xiner Li*, <b>Blake Olson</b>, Heng Ji, Shuiwang Ji"
     venue: "International Conference on Learning Representations <b>(ICLR)</b>, 2025"
@@ -18,6 +24,7 @@ papers26:
     venue: "International Conference on Learning Representations <b>(ICLR)</b>, 2026"
     paper_pdf: https://arxiv.org/abs/2506.06632
     selected: y
+    code: https://github.com/divelab/E2H-Reasoning
 
   - title: "Inference-Time Computations for LLM Reasoning and Planning: A Benchmark and Insights"
     authors: "Shubham Parashar*, <b>Blake Olson*</b>, Sambhav Khurana*, Eric Li*, Hongyi Ling, James Caverlee, Shuiwang Ji"

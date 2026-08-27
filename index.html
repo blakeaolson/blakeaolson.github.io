@@ -95,8 +95,26 @@ title: Home
       </div>
     {% endfor %}
   </div>
+
+  <h4>Preprints</h4>
+  {% for paper in site.data.publications.preprints %}
+    <div class="paper">
+      <p class="title"><b>{{ paper.title }}</b></p>
+      <p>{{ paper.authors }}</p>
+      <p><i>{{ paper.venue }}</i></p>
+      <div class="paper-buttons">
+        {% if paper.paper_pdf %}
+          <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+        {% endif %}
+        {% if paper.code %}
+          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
   <p>(* indicates equal contribution)</p>
 </div>
+
 
 
 <!-- ========== RESUME ========== -->
@@ -124,4 +142,3 @@ title: Home
     {% endfor %}
   </ul>
 </div>
-

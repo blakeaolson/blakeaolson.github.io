@@ -2,6 +2,7 @@ preprints:
   - title: "CanvasAnneal: Curriculum Reinforcement Learning for Diffusion Language Models"
     authors: "<b>Blake Olson</b>, Yuhang Song, Emmett McQuinn, Yuan Shangguan"
     venue: "arXiv preprint, 2026"
+    paper_pdf: https://arxiv.org/abs/2609.13060
     selected: y
 
   - title: "Complex LLM Planning via Automated Heuristics Discovery"
